@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+
+
+}
+
+.travel, .home{
+    color: #FF5400; 
+}
+
+
+
+/* header styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 30px 135px;
+}
+
+nav img{
+    width: 48px;
+    height: 45px;
+
+}
+
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .hero{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+nav .travel{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.explore-travel{
+
+}

@@ -6,6 +6,9 @@
 
 }
 
+
+/* shared styles */
+
 .travel, .home{
     color: #FF5400; 
 }
@@ -22,7 +25,6 @@
     font-weight: 700;
 
 }
-
 
 /* header styles */
 
@@ -113,7 +115,7 @@ nav li a{
     gap: 24px;
     padding: 16px;
     width: 700px;
-    height: 70px;
+    height: 50px;
     margin-top: 310px;
     margin-left: 185px;
 
@@ -136,6 +138,243 @@ nav li a{
 
 
 
+/* main styles */
+
+.popular-tours-container{
+    display: flex;
+    margin-top: 100px;
+    /* justify-content: space-between; */
+
+}
+
+.popular-tours-container h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 135px;
+    margin-bottom: 24px;
+}
+
+.popular-tours-container p, ul{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-left: 135px;
+    margin-bottom: 24px;
+
+}
+
+.popular-tours-container ul{
+    margin-left: 115px;
+}
+
+.popular-tours-container button{
+    margin-left: 135px;
+    font-size: 20px;
+    font-weight: 800px; 
+    margin-top: 32px;
+}
+
+.tours-content{
+    margin-right: 150px;
+    margin-left: 0;
+}
+
+.tours-img{
+    width: 540px;
+    height: 550px;
+    margin-right: 135px; 
+}
+
+
+.ch-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+
+}
+
+.ch-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px; 
+    margin-left: 440px;
+    margin-bottom: 48px;
+
+}
+
+.places-img-1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 24px;
+}
+
+.maldives{
+    background: url('../Images/Rectangle\ 5.png');
+    width: 573px;
+    height: 300px;
+
+}
+.Indonesia{
+    background: url('../Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+}
+
+
+.places-img-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 24px;
+
+}
+
+.srilanka{
+    background: url('../Images/Rectangle\ 6.png');
+    width: 374px;
+    height: 286px;
+}
+.north-america{
+    background: url('../Images/Rectangle\ 7.png');
+    width: 474px;
+    height: 286px;
+}
+
+.kashmir{
+
+}
+
+
+
+
+.places-img-3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.mal, .ind, .sri, .na, .ka{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 132px;
+
+}
+
+
+/* footer styles */
+
+/* small-devices */
+
+@media screen and (max-width: 600px) {
+    nav{
+        margin-left: 20px;
+    }
+
+    nav .hero{
+        font-size: 21px;
+    }
+
+    nav .travel{
+        font-size: 21px;
+    }
+
+    .header-container{
+        width: 335px;
+        height: 500px;
+        
+    }
+
+    .header-title{
+        position: absolute;
+        font-size: 22px;
+        margin-left: 64px;
+        margin-top: 32px;
+    }
+
+    .header-description{
+        position: absolute;
+        font-size: 14px;
+        margin-top: 68px;
+        margin-left: 16px;
+        width: 304px;
+    }
+
+    .header-destination{
+        position: absolute;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 16px;
+        margin-left: 24px;
+        margin-top: 163px;
+
+    }
+
+    .header-destination p{
+        width: 220px;
+        gap: 5px;
+        margin-bottom: 1px;
+    }
+
+    .btn-primary{
+        width: 255px;
+    }
+
+    .popular-tours-container{
+        flex-direction: column;
+    }
+
+    .popular-tours-container h2{
+        font-size: 20px;
+    }
+
+    .tours-content{
+        margin-left: -100px;
+        margin-right: 80px;
+        margin-bottom: 24px;
+    }
+
+    .popular-tours-container button{
+        width: 174px;
+        height: 52px;
+    }
+
+    .tours-img{
+    width: 350px;
+    height: 342px;
+    margin-left: 30px;
+
+   } 
+
+    /* nav img{
+        width: 28.724px;
+        height: 33.516px; 
+    } */
+}
+
+/* medium-devices */
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    
+}
 
 
 

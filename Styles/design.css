@@ -468,6 +468,53 @@ nav li a{
     margin-bottom: 100px;
 }
 
+.perfect-container{
+    margin-bottom: 100px;
+}
+
+.perfect-container h2{
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.perfect-container p{
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.perfect-container li{
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -155px;
+
+}
+
+.get-lost{
+    margin-left: 135px;
+}
+
+.yt-video{
+    border-radius: 16px;
+}
+
+.perfect-container{
+    display: flex;
+    gap: 28px;
+}
+
+
+
+
+
+
 .news{
     width: 474px;
     height: 350px;

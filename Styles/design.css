@@ -866,6 +866,24 @@ footer .so{
     flex-direction: column;
    }
 
+   .nw .news{
+    width: 280px;
+    height: 400px;
+   }
+
+   .nw .p{
+    width: 380px;
+    height: 300px;
+    }
+
+   .nw .p .save{
+    
+    margin-left: 70px;
+    /* margin-right: 100px; */
+   }
+
+
+
    .news{
     margin-left: 20px;
    }
@@ -881,8 +899,9 @@ footer .so{
    }
 
    footer{
-    width: 600px;
-    /* height: 309px; */
+    width: 390px;
+    height: 380px;
+
    }
 
 
@@ -898,20 +917,67 @@ footer .so{
     margin-left: 44px;
     /* text-align: center; */
     /* margin-right: 200px; */
-    width: 450px;
+    width: 300px;
    }
 
    footer .so{
-    margin-left: 170px;
+    margin-left: 150px;
    }
 
    footer .line-2{
     margin-left: 44px;
+    width: 335px;
    }
 
    footer .cp-right{
     margin-left: 150px;
    }
+
+   .deals-1, .deals-2, .deals-3{
+    margin-left: 20px;
+    width: 350px;
+    height: 500px;
+   }
+
+   .deals-1 .deals-border, .deals-2 .deals-border-2, .deals-3 .deals-border-3{
+    margin-left: 40px;
+    height: 450px;
+    
+   }
+
+   .deals-1 .deals-border p, .deals-2 .deals-border-2 p, .deals-3 .deals-border-3 p{
+    width: 254px;
+   }
+
+   .see{
+    margin-left: 50px;
+   }
+
+   .popular-tours-container img{
+    width: 335px;
+    height: 500px;
+   }
+
+   .places-img-1 .maldives, .Indonesia{
+    
+    width: 360px;
+    height: 300px;
+    }
+
+    .places-img-2 .north-america{
+        width: 360px;
+        height: 300px;
+    }
+
+    .places-img-3 .bangladesh{
+        width: 360px;
+        height: 300px;
+    }
+
+    .places-img-3 .bandorban{
+        width: 600px;
+        margin-right: 50px;
+    }
 
     /* nav img{
         width: 28.724px;

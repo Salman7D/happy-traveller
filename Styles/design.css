@@ -419,7 +419,7 @@ nav li a{
     width: 579px;
     height: 389px; 
     margin-left: 535px;
-    margin-top: 70px;
+    margin-top: 60px;
  
 
 }
@@ -689,6 +689,17 @@ footer .so{
 /* small-devices */
 
 @media screen and (max-width: 600px) {
+
+    nav ul{
+        display: none;
+        
+    }
+
+    nav ul{
+        background: url('../Images/Hamburger_icon.svg.png');
+    }
+
+
     nav{
         margin-left: 20px;
     }
@@ -804,6 +815,7 @@ footer .so{
     flex-direction: column;
     margin-left: 20px;
     gap: 16px;
+    
    }
 
    .choose-img-1, .choose-img-2{
@@ -836,17 +848,77 @@ footer .so{
     margin-left: 30px; 
     width: 309px;
    }
+
+   .places-img-3 .bandorban{
+    width: 550px;
+
+   }
+
+   .perfect-container{
+    flex-direction: column;
+   }
+
+   .get-lost{
+    margin-left: 20px;
+   }
+
+   .nw{
+    flex-direction: column;
+   }
+
+   .news{
+    margin-left: 20px;
+   }
+
+   .p{
+    width: 600px;
+    
+   }
+   
+   .save{
+    /* margin-right: 200px;  */
+    margin-left: 270px;
+   }
+
+   footer{
+    width: 600px;
+    /* height: 309px; */
+   }
+
+
+   footer .plane{
+    margin-left: 170px;
+   }
+
+   footer .tr{
+    margin-left: 230px;
+   }
+
+   footer .ft-description{
+    margin-left: 44px;
+    /* text-align: center; */
+    /* margin-right: 200px; */
+    width: 450px;
+   }
+
+   footer .so{
+    margin-left: 170px;
+   }
+
+   footer .line-2{
+    margin-left: 44px;
+   }
+
+   footer .cp-right{
+    margin-left: 150px;
+   }
+
     /* nav img{
         width: 28.724px;
         height: 33.516px; 
     } */
 }
 
-/* medium-devices */
-
-@media screen and (min-width: 601px) and (max-width: 992px) {
-    
-}
 
 
 
